@@ -1,27 +1,23 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    margin: 0;
-    padding: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
 }
 
-header {
-    background-color: #4CAF50;
-    color: white;
-    padding: 15px;
-    text-align: center;
-    width: 100%;
+.search-container {
+    margin-bottom: 20px;
 }
 
-main {
-    margin-top: 50px;
+#search-bar {
+    width: 80%;
+    padding: 10px;
 }
 
-button {
+#search-button {
     padding: 10px 20px;
-    font-size: 16px;
     cursor: pointer;
 }
